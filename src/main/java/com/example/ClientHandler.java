@@ -18,7 +18,6 @@ public class ClientHandler extends Thread {
         this.in = new ObjectInputStream(socket.getInputStream());
     }
 
-
     public Stone getStone() {
         return stone;
     }
